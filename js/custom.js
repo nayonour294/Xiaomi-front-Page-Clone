@@ -1,4 +1,5 @@
 const background = document.querySelectorAll(".background");
+const slides = document.querySelector(".slides-bg");
 
 let count = 1;
 
@@ -12,4 +13,14 @@ setInterval(() => {
     } else {
         currentBg.nextElementSibling.classList.add("current");
     }
+    
 }, 2000);
+
+
+
+// const stopSlide = () => {
+//     count++
+//     clearInterval(currentBg);
+// }
+
+// slides.addEventListener("click", stopSlide)
