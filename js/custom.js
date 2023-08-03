@@ -53,12 +53,3 @@ setInterval(() => {
     }
     
 }, 2000);
-
-
-
-// const stopSlide = () => {
-//     count++
-//     clearInterval(currentBg);
-// }
-
-// slides.addEventListener("click", stopSlide)
