@@ -13,9 +13,7 @@ setInterval(() => {
     } else {
         currentBg.nextElementSibling.classList.add("current");
     }
-    
 }, 2000);
-
 
 const backgroundChange = document.querySelectorAll(".background-change");
 const sliderImages = document.querySelector(".slider-images");
@@ -32,9 +30,7 @@ setInterval(() => {
     } else {
         currentImage.nextElementSibling.classList.add("current-img");
     }
-    
-}, 2000);
-
+}, 4000);
 
 const contentChange = document.querySelectorAll(".content-change");
 const sliderContents = document.querySelector(".slider-contents");
@@ -51,5 +47,4 @@ setInterval(() => {
     } else {
         currentContent.nextElementSibling.classList.add("current-content");
     }
-    
-}, 2000);
+}, 4000);
