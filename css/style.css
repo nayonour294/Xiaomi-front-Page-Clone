@@ -248,6 +248,10 @@
     padding-left: 2rem;
 }
 
+.bg-two-img img {
+    width: 650px;
+}
+
 .bg-container-two h2 {
     font-size: 40px;
     font-weight: 700;
@@ -305,6 +309,9 @@
     cursor: pointer;
     transition: all 0.8s;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slider-img-two {
@@ -314,6 +321,9 @@
     cursor: pointer;
     transition: all 0.8s;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slider-img-three {
@@ -323,6 +333,9 @@
     cursor: pointer;
     transition: all 0.8s;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slider-img-four {
@@ -332,6 +345,9 @@
     cursor: pointer;
     transition: all 0.8s;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slider-img-five {
@@ -341,6 +357,13 @@
     cursor: pointer;
     transition: all 0.8s;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pause-img img {
+    width: 70px;
 }
 
 .background-change {
@@ -369,7 +392,6 @@
 .slider-contents .btn-icon i {
     color: black !important;
     font-size: 20px;
-    
 }
 
 .slide-content-one,
@@ -418,6 +440,32 @@
     transform: translateY(0px);
 }
 
+.forword-btn {
+    position: absolute;
+    top: 83%;
+}
+
+.forword-btn i {
+    font-size: 30px;
+    color: #000 !important;
+    background: #fff;
+}
+
+.forword-btn button:hover i {
+    color: #3f3e3e !important;
+}
+
+.forword {
+    right: 60px;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+.back-forword {
+    position: absolute;
+    left: 60px;
+    transform: rotate(0deg);
+}
 
 .slides-bg::after {
     content: "";
@@ -458,6 +506,13 @@
     border-radius: 10px;
     margin-top: 20px;
     cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.bg-two-container button:hover {
+    background: #fff;
+    border: 1px solid #191919;
+    color: #191919;
 }
 
 .border {
@@ -531,12 +586,14 @@
     font-size: 40px;
     font-weight: 600;
     letter-spacing: 3px;
-    margin-bottom: 5px;
+    margin-bottom: 1rem;
 }
 
 .col-one-text p,
 .col-two-text p {
     font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 2px;
 }
 
 .btn-icon {
@@ -594,7 +651,7 @@ span i {
     font-size: 40px;
     font-weight: 600;
     letter-spacing: 3px;
-    margin-bottom: 5px;
+    margin-bottom: 1rem;
 }
 
 .four-text p {
@@ -630,14 +687,14 @@ span i {
 }
 
 .inner-img img {
-    width: 350px;
+    width: 300px;
 }
 
 .white-text h1 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
     letter-spacing: 3px;
-    margin-bottom: 5px;
+    margin-bottom: 1rem;
     color: #fff;
 }
 
@@ -652,10 +709,10 @@ span i {
 }
 
 .black-text h1 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
     letter-spacing: 3px;
-    margin-bottom: 5px;
+    margin-bottom: 1rem;
 }
 
 .black-text p {

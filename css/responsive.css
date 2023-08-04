@@ -1,0 +1,168 @@
+@media only screen and (max-width: 1280px) {
+    .smart-hover ul li i,
+    .life-hover ul li i,
+    .phone-hover ul li {
+        font-size: 25px;
+    }
+
+    .main-container {
+        max-width: 80%;
+    }
+
+    .left-menu ul li {
+        margin-left: 3rem;
+    }
+
+    .col-one-text p,
+    .col-two-text p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .col-one-text h1,
+    .col-two-text h1 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    .bg-two-img img {
+        width: 450px;
+    }
+
+    .bg-container-two h2 {
+        font-size: 35px;
+        margin-top: 1rem;
+        padding-left: 23rem;
+    }
+
+    .white-text h1 {
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+
+    .white-text p {
+        font-size: 18px;
+    }
+
+    .black-text h1 {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    .black-text p {
+        font-size: 18px;
+    }
+
+    .inner-img img {
+        width: 230px;
+    }
+
+    .four-text h1 {
+        font-size: 35px;
+        letter-spacing: 2px;
+    }
+
+    .four-text p {
+        font-size: 20px;
+    }
+
+    .slide-content-one,
+    .slide-content-two,
+    .slide-content-three,
+    .slide-content-four,
+    .slide-content-five {
+        padding: 4rem 2rem;
+    }
+
+    .slide-content-one h2,
+    .slide-content-two h2,
+    .slide-content-three h2,
+    .slide-content-four h2,
+    .slide-content-five h2 {
+        font-size: 29px;
+        font-weight: 600;
+    }
+
+    .slide-content-one p,
+    .slide-content-two p,
+    .slide-content-three p,
+    .slide-content-four p,
+    .slide-content-five p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .footer-section {
+        padding: 2rem;
+    }
+
+    .w-25 {
+        width: 33.33%;
+    }
+
+    .col-three {
+        float: none;
+        overflow: hidden;
+        margin-left: 70px;
+    }
+
+    .col-four {
+        float: none;
+    }
+
+    .footer-container {
+        height: 100vh;
+    }
+
+    .footer-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .copy-Write {
+        width: 100%;
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    .global {
+        padding: 0 2rem;
+        margin-top: 5rem;
+        float: none;
+        text-align: center;
+    }
+
+    .footer-section::after {
+        content: "";
+        display: none;
+        clear: both;
+        height: 1px;
+        background-color: #898989;
+        margin-bottom: 2rem;
+    }
+
+    .fotter-border {
+        width: 100%;
+        height: 1px;
+        background: #898989;
+        margin-bottom: 2rem;
+    }
+
+    input-field::placeholder {
+        font-size: 12px;
+    }
+
+    .my-style {
+        left: 90% !important;
+        
+    }
+
+    .smart-drop-menu, .life-drop-menu, .phone-drop-menu {
+        padding-right: 4rem;
+    }
+}
