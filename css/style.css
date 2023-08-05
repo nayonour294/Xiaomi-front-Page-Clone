@@ -17,6 +17,12 @@
     margin: auto;
 }
 
+.overly-container {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 .container {
     background: #fff;
 }
@@ -106,7 +112,7 @@
 
 .header-section .left-menu .background-cover {
     background-color: #000;
-    height: 100vh;
+    height: 420vh;
     left: 0;
     opacity: 0;
     pointer-events: none;
